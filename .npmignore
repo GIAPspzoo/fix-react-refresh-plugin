@@ -1,0 +1,6 @@
+lib
+node_modules
+.gitignore
+.npmignore
+rollup.config.js
+tsconfig.json

@@ -1,0 +1,37 @@
+{
+  "name": "fix-react-refresh-plugin",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prepublish": "rm -rf dist && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GIAPspzoo/fix-react-refresh-plugin.git"
+  },
+  "keywords": [
+    "fix",
+    "react",
+    "refresh",
+    "vite",
+    "hmr"
+  ],
+  "author": "GIAP sp. z o.o.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GIAPspzoo/fix-react-refresh-plugin/issues"
+  },
+  "homepage": "https://github.com/GIAPspzoo/fix-react-refresh-plugin#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.11.19",
+    "rollup": "^4.12.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
