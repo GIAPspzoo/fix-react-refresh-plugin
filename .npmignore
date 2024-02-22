@@ -1,3 +1,4 @@
+dist/regex.d.ts
 lib
 node_modules
 .gitignore
