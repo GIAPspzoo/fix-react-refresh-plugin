@@ -16,6 +16,7 @@ const fixReactRefresh: PluginImpl<TFixReactRefreshPluginConfig> = (config) => {
 
   return {
     name: 'fix-react-refresh',
+    apply: 'serve',
 
     transform(code, id) {
       if (
